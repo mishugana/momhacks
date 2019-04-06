@@ -24,5 +24,5 @@ from .views import *
 app_name = 'momhacks'
 
 urlpatterns = [
-    url('index/', TemplateView.as_view(template_name="index.html")),
+    url('', TemplateView.as_view(template_name="index.html")),
 ]
