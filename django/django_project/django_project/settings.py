@@ -133,4 +133,4 @@ def ip_addresses():
 
 # Discover our IP address
 ALLOWED_HOSTS = ip_addresses()
-
+ALLOWED_HOSTS.append("momgodb.com","www.momgodb.com")
