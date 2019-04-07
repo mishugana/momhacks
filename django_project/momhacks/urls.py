@@ -25,5 +25,6 @@ app_name = 'momhacks'
 
 urlpatterns = [ 
     url('profile/', TemplateView.as_view(template_name="profile.html")),
-    url('', TemplateView.as_view(template_name="index.html")), 
+    url('resources/', TemplateView.as_view(template_name="resources.html")), 
+    url('', TemplateView.as_view(template_name="index.html")), 	
     ]
