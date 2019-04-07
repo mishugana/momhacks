@@ -20,5 +20,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url('accounts/', include('django.contrib.auth.urls')),
     url(r'^', include('momhacks.urls')),
+    url('', include('social_django.urls', namespace='social'))
     ]
